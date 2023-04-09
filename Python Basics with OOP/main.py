@@ -27,15 +27,15 @@
 #
 # except Exception as e:
 #     print("you nned to know what number is.. huh, \nerror occured\n",e)
-#short method
-with open("FileHandling.txt","w") as f:
-    f.write("Hareem is back to programming")
-#context  method to make a file - long method have to close
-fp=open("newFile.txt","w")
-fp.write("she is amazing")
-fp.close()
-with open("newFile.txt","r") as f:
-    s=f.read()
-    print(s)
-with open("FileHandling.txt","a") as f:
-    f.write("Hareem is doing great")
+# #short method
+# with open("FileHandling.txt","w") as f:
+#     f.write("Hareem is back to programming")
+# #context  method to make a file - long method have to close
+# fp=open("newFile.txt","w")
+# fp.write("she is amazing")
+# fp.close()
+# with open("newFile.txt","r") as f:
+#     s=f.read()
+#     print(s)
+# with open("FileHandling.txt","a") as f:
+#     f.write("Hareem is doing great")
